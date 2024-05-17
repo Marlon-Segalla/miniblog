@@ -1,0 +1,16 @@
+.footer{
+    /* Alturo do footer */
+    height: 230px;
+    /* Por padrão deixa um item ao lado do outro */
+    display: flex;
+    /* Um item abaixo do outro */
+    flex-direction: column;
+    /* alinhar itens ao centro */
+    align-items: center;
+    /* Tanto na vertical como na horizontal */
+    justify-content: center; 
+    /* cor de fundo cinza bem claro */
+    background-color: #edf3f6;
+
+
+}
