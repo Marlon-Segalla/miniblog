@@ -20,8 +20,8 @@ const Dashboard = () => {
     return <p> Carregando...</p>;
     
   }
-  console.log ("LOG: "+ posts.length)
-  console.log ("LOG: "+ user.uid)
+  //console.log ("LOG: "+ posts.length)
+  //console.log ("LOG: "+ user.uid)
   return (
     <div className={style.dashboard}>
         <h2>  Dashboard </h2>
@@ -38,7 +38,7 @@ const Dashboard = () => {
               <span> título </span>  
               <span> Ações </span>  
             </div>
-            {posts && posts.map ((p) => 
+            {posts &&posts.length > 0 && posts.map ((p) => 
                <div key={p.id} className={style.post_row}> 
                   <p>{p.titulo} </p>
                   <div>
